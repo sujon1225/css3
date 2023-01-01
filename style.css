@@ -1,0 +1,16 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 5px solid purple;
+}
+.box1{
+    width: 400px;
+    height: 200px;
+    border: 5px solid gainsboro;
+    overflow: scroll;
+    
+}
+img{
+    width: 200px;
+    height: 200px
+}
