@@ -7,41 +7,42 @@
     <title>Document</title>
 </head>
 <style>
-    .box{
-        width: 200px;
-        height: 200px;
-        border: 5px solid cyan;
-        background-color: chartreuse;
-        transition: background-color 5s ease 3s;
+    div.a{
+        width: 150px;
+        height: 80px;
+        background-color: yellow;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        transform: rotate(20deg);
         text-align: center;
-    }
-    .box:hover{
-        background-color: darkorange;
-    }
-     #Box2{
-        width: 200px;
-        height: 200px;
-        background-color: cyan;
-        border: 7px solid tomato;
-        transition: background-color 4s ease 3s;
-        text-align: center;
-        text-align: center;
-        
-       
-    }
-    #Box2:hover{
-        background-color: orange;
-    }
+
+        }
+    
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: tomato;
+            -ms-transform: scaleY(1.5); /* IE 9 */
+            transform: scaleY(1.5);
+            text-align: center;
+        }
+        div.c{
+            
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            -ms-transform: skewY(20deg); /* IE 9 */
+            transform: skewY(20deg);
+            text-align: center;
+
+        }
 </style>
 <body>
-    
-    <div class="box">
-        <h2>Hello world</h2>
-
-    </div>
-    <div id="Box2">
-        <h2>My love </h2>
-
-    </div>
+    <h1>The transfer property</h1>
+    <h2>transform: rotate(20deg):</h2>
+    <div class="a">Hellw World!</div>
+    <h2>transform: skewY(20deg):</h2>
+    <div class="b">Hellw World</div>
+    <h2>transform: skewY(20deg):</h2>
+    <div class="c">Hellow world</div>
 </body>
 </html>
